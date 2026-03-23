@@ -1,0 +1,402 @@
+{
+  "generated": "2026-03-23",
+  "model": "claude-sonnet-4-20250514",
+  "episodes": [
+    {
+      "episodeId": 1,
+      "quote": "We never thought about what features to build. We thought about what kind of company we wanted to be — and the features followed from that.",
+      "framework": "Community-Led Growth: Build an intensely loyal niche first, let them evangelize, and use their trust as your distribution channel.",
+      "bestFor": ["Product Manager", "Founder", "Designer"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Pick one specific user type and build exclusively for them for the next 90 days. Figma chose designers and ignored everyone else. That focus is what made the product feel magical to that group." },
+        { "format": "remember-this", "text": "The features follow from the company you decide to be — not the other way around." },
+        { "format": "real-example",  "text": "Figma built multiplayer before it was obvious why. Dylan Field believed collaboration was the future of design tools, so they built toward that identity — and it became their moat." },
+        { "format": "ask-yourself",  "text": "If your product disappeared tomorrow, which specific type of user would be devastated? Are you actually building for that person, or for everyone?" },
+        { "format": "avoid-this",    "text": "Don't build a plugin ecosystem just because it sounds scalable. Figma first had to earn a community worth building for — plugins came after trust was established, not before." }
+      ],
+      "resources": [
+        { "title": "The Design of Everyday Things — Don Norman", "type": "book" },
+        { "title": "Product-Led Growth — Wes Bush", "type": "book" },
+        { "title": "Figma Community (figma.com/community)", "type": "tool" }
+      ]
+    },
+    {
+      "episodeId": 2,
+      "quote": "Product-market fit isn't binary. It's a spectrum, and you can measure where you are on it.",
+      "framework": "The PMF Survey: Ask users 'how disappointed would you be if this product disappeared?' — 40%+ saying 'very disappointed' is your PMF threshold.",
+      "bestFor": ["Founder", "Product Manager", "Growth"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Run the PMF survey this week. Email your last 30 active users one question: 'How would you feel if you could no longer use this product?' Segment the 'very disappointed' responses and read every word they write." },
+        { "format": "remember-this", "text": "40% is the magic number. Below it, stop acquiring. Above it, pour fuel on the fire." },
+        { "format": "real-example",  "text": "Superhuman found that speed was the thing 'very disappointed' users loved most — not features. So they made every interaction under 100ms a company-wide mandate, not an engineering goal." },
+        { "format": "ask-yourself",  "text": "What percentage of your active users would be 'very disappointed' if you shut down tomorrow? If you don't know, that's your most important metric to go find out." },
+        { "format": "avoid-this",    "text": "Don't try to convert your 'somewhat disappointed' users — they're too expensive to win. Double down on what makes your 'very disappointed' users love you instead." }
+      ],
+      "resources": [
+        { "title": "How Superhuman Built an Engine to Find PMF — First Round Review", "type": "article" },
+        { "title": "The Lean Startup — Eric Ries", "type": "book" },
+        { "title": "Zero to One — Peter Thiel", "type": "book" }
+      ]
+    },
+    {
+      "episodeId": 3,
+      "quote": "We didn't want to build another productivity app. We wanted to build the tool we wished existed — and trust that other people wished for it too.",
+      "framework": "Philosophy-First Development: Define your core belief about how the world should work, then derive every feature from that belief.",
+      "bestFor": ["Founder", "Product Manager", "Designer"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Write one sentence that captures your product's philosophy — not what it does, but what it believes. Notion's was 'tools should mold to you, not the other way around.' Every feature decision flows from that." },
+        { "format": "remember-this", "text": "Resist premature growth. Notion stayed small for years on purpose. Clarity beats scale every time in the early stage." },
+        { "format": "real-example",  "text": "Notion's template gallery wasn't a growth hack — it was philosophy in action. Templates showed the product adapting to different workflows, proving the belief before users had to discover it themselves." },
+        { "format": "ask-yourself",  "text": "Can every person on your team articulate why your product exists in one sentence? If your engineers and designers give different answers, your product will feel incoherent." },
+        { "format": "avoid-this",    "text": "Don't hire for domain expertise at the expense of taste. Ivan Zhao specifically wanted people who were deeply curious about how things work — specialists who optimize locally will fracture your product's coherence." }
+      ],
+      "resources": [
+        { "title": "Shape Up — Ryan Singer (Basecamp)", "type": "book" },
+        { "title": "The Innovator's Dilemma — Clayton Christensen", "type": "book" },
+        { "title": "Notion (notion.so) — explore the template gallery", "type": "tool" }
+      ]
+    },
+    {
+      "episodeId": 4,
+      "quote": "Every word you make someone read that doesn't earn its place is a small act of disrespect for their time.",
+      "framework": "The Pyramid Principle: Lead with your conclusion, then support it — because most people bury the point at the end and lose the reader before they get there.",
+      "bestFor": ["Product Manager", "Leader", "Anyone who writes at work"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Rewrite your next Slack message or email. Put the ask or conclusion in the first sentence. Everything after is supporting context. Cut anything that doesn't directly support that first sentence." },
+        { "format": "remember-this", "text": "Strong writing is strong thinking made visible. If you can't explain it clearly, you don't understand it yet." },
+        { "format": "real-example",  "text": "Wes Kao teaches PMs to replace 'we improved retention' with 'we increased 30-day retention from 42% to 61% by simplifying the onboarding flow.' Concrete numbers plus mechanism plus outcome — every time." },
+        { "format": "ask-yourself",  "text": "In your last 3 work documents, what was the actual point? Was it in the first paragraph? If someone read only the first two sentences of each, would they know what you needed from them?" },
+        { "format": "avoid-this",    "text": "Don't write for yourself — write for a specific reader. A VP Engineering and a VP Marketing need different framings of the same truth. One doc that tries to serve both will serve neither." }
+      ],
+      "resources": [
+        { "title": "The Pyramid Principle — Barbara Minto", "type": "book" },
+        { "title": "On Writing Well — William Zinsser", "type": "book" },
+        { "title": "Maven (maven.com) — Wes Kao's cohort courses", "type": "tool" }
+      ]
+    },
+    {
+      "episodeId": 5,
+      "quote": "We spent weeks on the error messages. Nobody else was doing that. And developers noticed.",
+      "framework": "Developer Experience as Moat: Every touchpoint a developer has with your product is a product surface — docs, SDKs, error messages, support. DX compounds into word-of-mouth.",
+      "bestFor": ["Founder", "Product Manager", "Engineer"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Go read your product's error messages right now. Are they specific enough to tell a user exactly what went wrong and what to do next? Stripe rewrote every error message to answer both — that's the bar." },
+        { "format": "remember-this", "text": "Think in decades, not quarters. Every short-term sacrifice Stripe made was obviously right for the platform they were building toward." },
+        { "format": "real-example",  "text": "Stripe's founders personally onboarded their first 100 merchants — sitting with them, watching them integrate in real time, fixing friction immediately. That's how you learn what 'easy' actually means." },
+        { "format": "ask-yourself",  "text": "What's the hardest part of using your product for the first time? Have you personally done it from scratch, without help, in the last month?" },
+        { "format": "avoid-this",    "text": "Don't wait for customers to come to you in the early days. John Collison called this 'Collison installation' — physically going to users and doing the work with them rather than sending a link and hoping." }
+      ],
+      "resources": [
+        { "title": "High Growth Handbook — Elad Gil", "type": "book" },
+        { "title": "The Hard Thing About Hard Things — Ben Horowitz", "type": "book" },
+        { "title": "Stripe documentation (stripe.com/docs) — study as a DX benchmark", "type": "tool" }
+      ]
+    },
+    {
+      "episodeId": 6,
+      "quote": "Every time you add a setting, you've admitted you don't know what the right answer is. We'd rather make the call.",
+      "framework": "Opinionated Design: Make strong choices about how work should happen and build around those choices — users who agree become deeply loyal advocates.",
+      "bestFor": ["Product Manager", "Designer", "Founder"],
+      "takeaways": [
+        { "format": "do-this",       "text": "List every 'preference' or 'setting' in your product. For each one, ask: why don't we just pick the better option? Linear's default answer is always 'make the call.' Pick one setting to remove this week." },
+        { "format": "remember-this", "text": "Speed is a product value, not an engineering metric. Every 100ms you shave is a message to users that you respect their time." },
+        { "format": "real-example",  "text": "Linear kept their entire team under 20 people for years while shipping a product used by thousands of engineering teams. The constraint was intentional — small teams move fast, and fast is the product." },
+        { "format": "ask-yourself",  "text": "What features in your product exist because you didn't want to make a hard decision? Every optional setting is a deferred choice. Which ones could you just decide for your users?" },
+        { "format": "avoid-this",    "text": "Don't build for every possible use case. Linear explicitly doesn't support certain workflows — and those constraints are what make the product feel coherent. Scope is a feature." }
+      ],
+      "resources": [
+        { "title": "Rework — Jason Fried & DHH", "type": "book" },
+        { "title": "It Doesn't Have to Be Crazy at Work — Jason Fried & DHH", "type": "book" },
+        { "title": "Linear (linear.app) — use it to feel opinionated design firsthand", "type": "tool" }
+      ]
+    },
+    {
+      "episodeId": 7,
+      "quote": "We thought our onboarding was explaining the product. It was actually just delaying the moment users could feel it.",
+      "framework": "Time-to-Value: Map sign-up to first meaningful outcome, then remove every step that doesn't directly accelerate reaching it.",
+      "bestFor": ["Growth", "Product Manager", "Designer"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Time yourself going through your own onboarding from scratch right now. Count every click. Identify the moment you first felt the product deliver value. Everything before that moment is your optimization target." },
+        { "format": "remember-this", "text": "Onboarding to outcomes, not features. Show users what they'll be able to do — not what buttons exist." },
+        { "format": "real-example",  "text": "Figma discovered their 'aha moment' was the first time someone shared a file and a collaborator joined in real time. So they redesigned onboarding to make that happen within the first 3 minutes — not after 10." },
+        { "format": "ask-yourself",  "text": "What is the single moment in your product where a new user first thinks 'oh, this is actually useful'? How many minutes and clicks does it take to get there today?" },
+        { "format": "avoid-this",    "text": "Don't assume adding more guidance helps. Figma found that removing onboarding steps consistently outperformed adding tooltips and walkthroughs. Friction is the enemy, even when it's well-intentioned friction." }
+      ],
+      "resources": [
+        { "title": "Hooked — Nir Eyal", "type": "book" },
+        { "title": "UserOnboard.com — teardowns of real onboarding flows", "type": "tool" },
+        { "title": "Intercom on Onboarding (intercom.com/books)", "type": "article" }
+      ]
+    },
+    {
+      "episodeId": 8,
+      "quote": "The most expensive thing you can do is underprice. You leave money on the table and attract the wrong customers at the same time.",
+      "framework": "Value-Based Pricing: Price at a fraction of the value you deliver to customers — not as a markup on what it cost you to build.",
+      "bestFor": ["Founder", "Product Manager", "Growth"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Email 5 of your best customers this week and ask: 'What would you pay for this product if you had to justify it to your CFO?' Their answer reveals willingness-to-pay — which is almost always higher than your current price." },
+        { "format": "remember-this", "text": "Underpricing attracts the wrong customers. Price-sensitive buyers churn the moment a cheaper alternative appears." },
+        { "format": "real-example",  "text": "Madhavan Ramanujam worked with a SaaS company charging $10/month who discovered through WTP research their customers would pay $75. They were leaving 87% of their revenue on the table every single month." },
+        { "format": "ask-yourself",  "text": "Do you know, with actual data, what your best customers would pay if your price doubled? If not, you're pricing based on fear — not value." },
+        { "format": "avoid-this",    "text": "Don't copy competitor pricing. If your competitor charges $20/month and you charge $19, you've made price your differentiator — and you'll always lose to whoever charges $18 next." }
+      ],
+      "resources": [
+        { "title": "Monetizing Innovation — Madhavan Ramanujam & Georg Tacke", "type": "book" },
+        { "title": "The Strategy and Tactics of Pricing — Thomas Nagle", "type": "book" },
+        { "title": "Price Intelligently blog (priceintelligently.com)", "type": "article" }
+      ]
+    },
+    {
+      "episodeId": 9,
+      "quote": "Acquisition gets you users. Retention gets you a business. You can't growth-hack your way past a product that doesn't keep people.",
+      "framework": "Growth Loops: Identify closed loops where one user's action brings in the next user — loops compound over time, funnels don't.",
+      "bestFor": ["Growth", "Product Manager", "Founder"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Draw your growth loop on a whiteboard right now. Start with a retained user and trace every action that could bring in a new user. If you can't draw a loop — only a funnel — that's your growth problem." },
+        { "format": "remember-this", "text": "Fix retention before scaling acquisition. Every dollar spent acquiring users you can't retain is a dollar wasted." },
+        { "format": "real-example",  "text": "Elena Verna helped a B2B company discover their best growth loop: a free user invites a colleague → colleague signs up free → team adopts → company upgrades to paid. Mapping it clearly let them optimize each step separately." },
+        { "format": "ask-yourself",  "text": "If you stopped all paid acquisition tomorrow, would your user base grow, stay flat, or shrink? The answer tells you whether you have a growth engine or a growth dependency." },
+        { "format": "avoid-this",    "text": "Don't build a growth team before you have a retention baseline. Growth teams that optimize acquisition for a leaky product just pour water into a broken bucket faster." }
+      ],
+      "resources": [
+        { "title": "Product-Led Growth — Wes Bush", "type": "book" },
+        { "title": "Reforge (reforge.com) — Elena Verna's growth programs", "type": "tool" },
+        { "title": "Andrew Chen's blog (andrewchen.com)", "type": "article" }
+      ]
+    },
+    {
+      "episodeId": 10,
+      "quote": "We were selling to the future buyer, not the current one. That's a bet that takes conviction to make.",
+      "framework": "Platform Network Effects: When your product becomes where data lives and is shared, switching costs become genuine accumulated value — not artificial lock-in.",
+      "bestFor": ["Founder", "Product Manager", "Engineer"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Identify the 'future buyer' for your product — not who's buying today, but who will be buying in 3 years as the market shifts. Build one feature this quarter that serves them, even if current buyers don't care yet." },
+        { "format": "remember-this", "text": "Hire ahead of the curve in sales. Snowflake brought in enterprise muscle before it was obvious — that head start compounded." },
+        { "format": "real-example",  "text": "Snowflake separated storage from compute in both their architecture and their pricing. This meant customers only paid for what they used — a radical idea in 2012 that became the industry standard and their biggest acquisition advantage." },
+        { "format": "ask-yourself",  "text": "What would your product look like if you designed it for the cloud-native buyer of 2027 instead of the legacy enterprise buyer of today? Which assumptions would you have to throw out?" },
+        { "format": "avoid-this",    "text": "Don't design your data product for portability. Snowflake built for depth — the more data that lives there, the more valuable it becomes to share. Trying to make it easy to leave undermines the core value proposition." }
+      ],
+      "resources": [
+        { "title": "Behind the Cloud — Marc Benioff", "type": "book" },
+        { "title": "High Growth Handbook — Elad Gil", "type": "book" },
+        { "title": "Snowflake S-1 filing — study as a business model case", "type": "article" }
+      ]
+    },
+    {
+      "episodeId": 11,
+      "quote": "I used to think that being a good CEO meant delegating everything. COVID taught me that sometimes the most important thing I can do is be the one who cares most.",
+      "framework": "Infinite Detail Leadership: The leader who goes deepest into product details sets the quality standard for the entire organization.",
+      "bestFor": ["Founder", "Leader", "Product Manager"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Read 10 customer support tickets or reviews this week — yourself, not a summary. Brian Chesky reads Airbnb letters personally. Direct contact with customer reality is not optional for leaders who want to maintain product quality." },
+        { "format": "remember-this", "text": "Culture is what you do when it's hard. COVID stripped away Airbnb's wall art and revealed which values were actually real." },
+        { "format": "real-example",  "text": "After COVID, Airbnb didn't restore what existed before — they reimagined it. Chesky redesigned the entire Airbnb experience from first principles, including host verification, pricing tools, and guest communication. Rebuilding was faster than restoring." },
+        { "format": "ask-yourself",  "text": "What would you do differently about remote work if you could start over? Chesky says he'd never have gone fully remote — not for productivity reasons but because he believes culture requires physical presence at the early stage." },
+        { "format": "avoid-this",    "text": "Don't confuse delegation with abdication. Chesky delegates decisions constantly — but never delegates understanding. He needs to know the details even when he's not making the call." }
+      ],
+      "resources": [
+        { "title": "The Culture Code — Daniel Coyle", "type": "book" },
+        { "title": "No Rules Rules — Reed Hastings & Erin Meyer", "type": "book" },
+        { "title": "Measure What Matters — John Doerr", "type": "book" }
+      ]
+    },
+    {
+      "episodeId": 12,
+      "quote": "The best PMs I've seen don't have the best ideas. They create the conditions where the best ideas can emerge from anywhere on the team.",
+      "framework": "LNO Framework: Categorize all work as Leverage (multiplies output), Neutral (necessary but not differentiating), or Overhead (pure cost) — protect time for leverage ruthlessly.",
+      "bestFor": ["Product Manager", "Leader"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Take your task list for this week and label every item L, N, or O. If less than 30% are Leverage items, you have a prioritization problem — not a capacity problem. Cut one N and one O to make room for a second L." },
+        { "format": "remember-this", "text": "Influence without authority is the core PM skill. You must align engineers, designers, and execs without any of them reporting to you." },
+        { "format": "real-example",  "text": "Shreyas Doshi ran pre-mortems at Twitter before every major launch — imagining the launch had failed and working backward to what caused it. This consistently surfaced risks the team was too optimistic to see during normal planning." },
+        { "format": "ask-yourself",  "text": "In the last month, what was the highest-leverage thing you did — the thing that multiplied your whole team's output? Did you spend more time on that or on status updates and meetings?" },
+        { "format": "avoid-this",    "text": "Don't measure your value as a PM by features shipped. Output thinking (what did I ship?) is the trap. Outcome thinking (what changed for users?) is the measure. If you shipped 10 features that moved nothing, you had a low-impact quarter." }
+      ],
+      "resources": [
+        { "title": "Inspired — Marty Cagan", "type": "book" },
+        { "title": "Cracking the PM Interview — Gayle McDowell & Jackie Bavaro", "type": "book" },
+        { "title": "Shreyas Doshi on X (@shreyas)", "type": "article" }
+      ]
+    },
+    {
+      "episodeId": 13,
+      "quote": "We're not competing with other language apps. We're competing with Netflix and TikTok for attention. That changes every design decision.",
+      "framework": "Habit Loop Engineering: Design Cue → Routine → Reward cycles. Streaks work because they attach to identity, not just behavior.",
+      "bestFor": ["Growth", "Product Manager", "Designer"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Map the habit loop in your product: what's the cue that brings users back, what's the routine they perform, and what's the reward they feel? If any of the three is weak, your retention will leak. Fix the weakest link first." },
+        { "format": "remember-this", "text": "A/B test your most sacred assumptions first. Duolingo's biggest wins came from testing things the team was certain would fail." },
+        { "format": "real-example",  "text": "Duolingo's streak is genius because it doesn't just track behavior — it creates identity. Users don't say 'I have a 30-day streak.' They say 'I'm someone who learns every day.' That identity is far harder to break than a habit." },
+        { "format": "ask-yourself",  "text": "What is the single notification your users most look forward to receiving? If you can't name it — or if the answer is 'they don't look forward to any of them' — your re-engagement strategy needs rebuilding." },
+        { "format": "avoid-this",    "text": "Don't add gamification on top of a broken core experience. Badges and points failed at other apps because the underlying action wasn't rewarding. Fix the core loop before layering mechanics on top." }
+      ],
+      "resources": [
+        { "title": "Hooked — Nir Eyal", "type": "book" },
+        { "title": "Atomic Habits — James Clear", "type": "book" },
+        { "title": "Duolingo blog (blog.duolingo.com) — their own growth teardowns", "type": "article" }
+      ]
+    },
+    {
+      "episodeId": 14,
+      "quote": "Your competition isn't who you think it is. It's whatever the customer is doing right now instead of using your product.",
+      "framework": "Jobs To Be Done: Every purchase is hiring a product to make progress in a specific situation. Define the job, then beat the alternative they're currently firing.",
+      "bestFor": ["Product Manager", "Founder", "Designer", "Researcher"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Interview 3 recent customers using the 'switch interview' technique: ask them to walk you through the exact moment they decided to try your product and what they were doing before. Listen for the 'struggling moment' — that's your real competitive insight." },
+        { "format": "remember-this", "text": "Context matters more than demographics. Two identical users in different situations will hire completely different products for the same job." },
+        { "format": "real-example",  "text": "Bob Moesta worked with a milkshake company that discovered their morning buyers weren't buying milkshakes — they were hiring them for a boring commute. That insight led to a thicker shake (lasts longer) rather than a tastier one — and sales jumped." },
+        { "format": "ask-yourself",  "text": "What was your best customer doing before they found you? What did they try first that didn't work? What were they tolerating? That gap between tolerance and your product is your real value proposition." },
+        { "format": "avoid-this",    "text": "Don't segment by demographics. 'Women 25-34 in urban areas' tells you almost nothing about why they'd hire your product. Segment by situation and struggling moment instead." }
+      ],
+      "resources": [
+        { "title": "Competing Against Luck — Clayton Christensen & Bob Moesta", "type": "book" },
+        { "title": "Demand-Side Sales 101 — Bob Moesta", "type": "book" },
+        { "title": "The Jobs To Be Done Playbook — Jim Kalbach", "type": "book" }
+      ]
+    },
+    {
+      "episodeId": 15,
+      "quote": "Most teams do discovery to validate what they've already decided to build. Real discovery means being genuinely uncertain about the answer.",
+      "framework": "Opportunity-Solution Tree: Map desired outcomes → customer opportunities → possible solutions. Never jump to solutions before the opportunity is validated.",
+      "bestFor": ["Product Manager", "Researcher", "Designer"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Schedule one 20-minute customer conversation this week — not to validate your roadmap, but to understand a struggle you haven't solved yet. Go in with zero agenda. Teresa Torres calls this 'continuous discovery' and recommends at least one conversation per week, every week." },
+        { "format": "remember-this", "text": "Test assumptions, not ideas. Before building anything, list what has to be true for this to work — then test the riskiest assumption first." },
+        { "format": "real-example",  "text": "Teresa Torres worked with a team that replaced their quarterly roadmap with an opportunity-solution tree. Within 3 months, they were running 10x more small experiments and shipping features with dramatically higher adoption — because they stopped guessing which problems mattered." },
+        { "format": "ask-yourself",  "text": "When did you last talk to a customer with no agenda — not to show them a prototype, not to validate a hypothesis, but just to understand their world? If it's been more than 2 weeks, you're flying blind." },
+        { "format": "avoid-this",    "text": "Don't do discovery alone. Teresa Torres is emphatic: product trios (PM + engineer + designer) doing discovery together produce far better outcomes than one person researching and handing off insights. Shared context beats perfect documentation." }
+      ],
+      "resources": [
+        { "title": "Continuous Discovery Habits — Teresa Torres", "type": "book" },
+        { "title": "User Story Mapping — Jeff Patton", "type": "book" },
+        { "title": "ProductTalk.org — Teresa Torres's blog", "type": "article" }
+      ]
+    },
+    {
+      "episodeId": 16,
+      "quote": "Nobody wakes up wanting to buy software. They wake up wanting to solve a problem. Your narrative should be about their problem, not your solution.",
+      "framework": "Strategic Narrative Arc: (1) Name a world-changing shift, (2) Show winners/losers, (3) Describe the promised land, (4) Reveal obstacles, (5) Position your product as the key.",
+      "bestFor": ["Founder", "Product Manager", "Anyone who presents or pitches"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Rewrite your next pitch or product presentation opening. Don't start with your company or product. Start with a shift happening in the world that your audience already feels — then explain why that shift creates winners and losers, and which side your product puts them on." },
+        { "format": "remember-this", "text": "The promised land is a place, not a product. Describe the future your customer lives in — then reveal your product as the path to get there." },
+        { "format": "real-example",  "text": "Andy Raskin analyzed Salesforce's early pitch: it didn't start with CRM software. It started with 'the software industry is broken' — naming the enemy (installed software), showing the suffering it caused, then positioning Salesforce as the escape route. That narrative built a $200B company." },
+        { "format": "ask-yourself",  "text": "What is the shift happening in the world that makes your product inevitable? If you can't name a shift that's already happening — one your audience already senses — your narrative will feel like marketing, not truth." },
+        { "format": "avoid-this",    "text": "Don't name a competitor as your enemy in a strategic narrative. The enemy should be a condition, a belief, or a broken status quo — not a company. 'Legacy software thinking' is an enemy. 'Salesforce' is a competitor. Audiences rally around defeating conditions, not companies." }
+      ],
+      "resources": [
+        { "title": "Andy Raskin's newsletter (andyraskin.com)", "type": "article" },
+        { "title": "Building a StoryBrand — Donald Miller", "type": "book" },
+        { "title": "Pitch Anything — Oren Klaff", "type": "book" }
+      ]
+    },
+    {
+      "episodeId": 17,
+      "quote": "The root cause of most failed products isn't bad engineering or bad design. It's being given the wrong problem to solve.",
+      "framework": "Empowered Product Teams: Give teams a problem and an outcome to own — not a feature list to execute. Hold them to results, not adherence to specs.",
+      "bestFor": ["Product Manager", "Leader", "Founder"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Look at your current sprint or roadmap. For each item, ask: 'Does this tell the team what to build, or what outcome to achieve?' If it's mostly features, reframe three of them as outcomes this week. 'Build a dashboard' becomes 'Help users understand their retention trend in under 60 seconds.'" },
+        { "format": "remember-this", "text": "Be a missionary, not a mercenary. The best PMs believe in the problem so deeply they'll fight for the right solution even when it's unpopular." },
+        { "format": "real-example",  "text": "Marty Cagan studied dozens of the most successful tech products — Slack, Netflix, Amazon — and found they all share one trait: the teams that built them were told the problem to solve, not the solution to ship. The feature factory model produced none of them." },
+        { "format": "ask-yourself",  "text": "If your PM team disappeared tomorrow, would your engineers know what outcomes they were responsible for? Or would work just stop because the next features weren't specced? The answer tells you whether you have empowered teams or an execution shop." },
+        { "format": "avoid-this",    "text": "Don't separate discovery from delivery. Waiting for a complete spec before writing code creates waste — by the time you build it, you've already learned it was the wrong thing. Run discovery and delivery in parallel, always." }
+      ],
+      "resources": [
+        { "title": "Inspired — Marty Cagan", "type": "book" },
+        { "title": "Empowered — Marty Cagan & Chris Jones", "type": "book" },
+        { "title": "SVPG blog (svpg.com/articles)", "type": "article" }
+      ]
+    },
+    {
+      "episodeId": 18,
+      "quote": "We didn't have a growth strategy. We had a product where growth was the strategy. Every video sent was an ad we didn't have to pay for.",
+      "framework": "Product-Led Virality: Design the core action so that using the product inherently involves sharing it with non-users — engagement and acquisition become the same motion.",
+      "bestFor": ["Founder", "Growth", "Product Manager"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Map every point in your product where a user shares something with a non-user. For each one, ask: does the non-user have to sign up to get value? If yes, that's friction killing your viral loop. Loom lets recipients watch without signing up — that's intentional." },
+        { "format": "remember-this", "text": "Don't build a growth team before you understand your growth loop. Loom grew to millions without one — because the loop was already working." },
+        { "format": "real-example",  "text": "Every Loom video URL is public by default. That single decision — sharing as the default, privacy as the opt-in — meant every video was a marketing impression. Loom's DAU growth came from recipients watching videos, not from Loom running ads." },
+        { "format": "ask-yourself",  "text": "Is there a version of your product where the core action of using it automatically exposes a non-user to its value? If not, how close can you get?" },
+        { "format": "avoid-this",    "text": "Don't force sign-up before delivering value to a referred user. Every friction point between 'I received a Loom' and 'I'm watching the Loom' is a leak in the viral loop. Gate account creation until after value is delivered." }
+      ],
+      "resources": [
+        { "title": "Product-Led Growth — Wes Bush", "type": "book" },
+        { "title": "Viral Loop — Adam Penenberg", "type": "book" },
+        { "title": "Loom (loom.com) — study the sharing experience firsthand", "type": "tool" }
+      ]
+    },
+    {
+      "episodeId": 19,
+      "quote": "The PMs who get promoted fastest aren't the ones who shipped the most. They're the ones whose thinking made everyone around them better.",
+      "framework": "Scope of Impact Model: Junior PMs optimize their squad. Senior PMs create leverage across their area. Principal PMs change how the company thinks about a problem space.",
+      "bestFor": ["Product Manager", "Anyone growing their career"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Write a one-paragraph point of view on the most important strategic question your product team is wrestling with right now. Share it with your manager this week — unprompted. Senior PMs develop and share strong opinions. Jackie Bavaro says this single habit separates those who level up from those who don't." },
+        { "format": "remember-this", "text": "Build credibility through specificity. Vague recommendations lose trust. Data plus mechanism plus outcome — every recommendation, every time." },
+        { "format": "real-example",  "text": "At Asana, Jackie Bavaro noticed that PMs who got promoted quickly were the ones creating value beyond their immediate team — writing internal frameworks others adopted, mentoring newer PMs, or solving a cross-cutting problem no one owned. Scope expansion is how you demonstrate senior-level thinking before you have a senior title." },
+        { "format": "ask-yourself",  "text": "In the last quarter, did you create any value outside your immediate team? A framework someone else used, a customer insight you shared broadly, a decision you helped another team make faster? If not, you're operating below your potential level." },
+        { "format": "avoid-this",    "text": "Don't optimize your career by optimizing your team's output. The PMs who plateau are the ones who get really, really good at execution in their lane. Promotion requires demonstrating the thinking of the level above — not the execution of your current level." }
+      ],
+      "resources": [
+        { "title": "Cracking the PM Interview — Gayle McDowell & Jackie Bavaro", "type": "book" },
+        { "title": "Swipe to Unlock — Neel Mehta et al.", "type": "book" },
+        { "title": "Lenny's Newsletter (lennysnewsletter.com)", "type": "article" }
+      ]
+    },
+    {
+      "episodeId": 20,
+      "quote": "Every time we hit a growth ceiling, the answer was the same — we'd been building for our current users and ignoring the people who almost became users.",
+      "framework": "Adjacent User Theory: When growth slows, study people who tried your product but didn't stick — their specific blocker is your next growth unlock.",
+      "bestFor": ["Growth", "Product Manager", "Founder"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Pull a list of users who signed up in the last 90 days and never came back. Email 5 of them this week with one question: 'What made you decide not to continue using [product]?' Their answer is your next growth project." },
+        { "format": "remember-this", "text": "Your north star metric should evolve as you scale. What you measure at 1M users is wrong for 100M — the constraints change completely." },
+        { "format": "real-example",  "text": "At Instagram, Bangaly Kaba's team discovered a huge group of near-users: people who downloaded the app, browsed once, and churned. The blocker was always the same — they couldn't find people they knew. The fix was better contact importing. One change unlocked the next 50M users." },
+        { "format": "ask-yourself",  "text": "Who is one step outside your current user base — people who are aware of your product, may have tried it, but didn't stick? What's the one specific thing that stopped them? Finding that answer is worth more than any acquisition campaign." },
+        { "format": "avoid-this",    "text": "Don't keep optimizing for your current users when growth stalls. It's the trap every team falls into — building more features for the happy cohort while the adjacent cohort bounces. Growth ceilings are almost always about the people just outside your current base." }
+      ],
+      "resources": [
+        { "title": "Hacking Growth — Sean Ellis & Morgan Brown", "type": "book" },
+        { "title": "Reforge Growth Series (reforge.com)", "type": "tool" },
+        { "title": "Andrew Chen's blog (andrewchen.com)", "type": "article" }
+      ]
+    },
+    {
+      "episodeId": 21,
+      "quote": "Bad design is usually not a skills problem. It's a clarity problem. The designer didn't understand the problem well enough before they started solving it.",
+      "framework": "Design as Clear Thinking: Write in plain language what problem you're solving for whom before opening any design tool. No clarity, no design.",
+      "bestFor": ["Designer", "Product Manager", "Leader"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Before your team's next design review, ask everyone to write one sentence: 'This design solves [specific problem] for [specific user] by [specific mechanism].' If answers differ across the room, stop the review — you don't have alignment on the problem, so you can't evaluate the solution." },
+        { "format": "remember-this", "text": "Design quality is a leadership choice. Teams produce remarkable work when leaders visibly care about craft at the same level as metrics." },
+        { "format": "real-example",  "text": "Julie Zhuo ran design at Facebook when it scaled from 500M to 2B users. She found that the teams doing the best design work weren't the most talented — they were the ones with the clearest problem statements. Clarity of purpose beats design skill every time." },
+        { "format": "ask-yourself",  "text": "In the last design decision your team made, how specific was the problem statement? Was it 'improve the checkout experience' or was it 'reduce drop-off at the payment step for users on mobile who've already added items to cart'? The specificity of the problem determines the quality of the solution." },
+        { "format": "avoid-this",    "text": "Don't let 'ship and iterate' become an excuse for not thinking. Julie Zhuo is explicit: shipping quickly is right — but only after you're clear on what you're shipping and why. 'Move fast' without clarity produces fast, wrong work." }
+      ],
+      "resources": [
+        { "title": "The Making of a Manager — Julie Zhuo", "type": "book" },
+        { "title": "The Design of Everyday Things — Don Norman", "type": "book" },
+        { "title": "Figma (figma.com)", "type": "tool" }
+      ]
+    },
+    {
+      "episodeId": 22,
+      "quote": "GTM isn't a launch decision. It's an identity decision. How you go to market shapes your product, your team, and your culture for years.",
+      "framework": "GTM Motion Matrix: Map sale complexity × who-adopts-vs-who-pays. Same person + low complexity = PLG. Different people + high complexity = sales-led. Both at scale = hybrid.",
+      "bestFor": ["Founder", "Growth", "Product Manager"],
+      "takeaways": [
+        { "format": "do-this",       "text": "Answer two questions about your product right now: (1) Can a user get value without asking their manager or IT? (2) Is the person who benefits from the product the same person who approves the budget? If both answers are yes, you have a PLG opportunity. If no to either, you need sales in the loop." },
+        { "format": "remember-this", "text": "The handoff between PLG and sales is a product problem, not a process problem. Build it into the product — don't bolt it on after." },
+        { "format": "real-example",  "text": "Kyle Poyar analyzed dozens of successful PLG companies and found a pattern: they all used product-led motion for the first 10 users in a company, then triggered a sales conversation when usage crossed a threshold. The trigger wasn't time-based — it was usage-based." },
+        { "format": "ask-yourself",  "text": "If you went fully PLG today with no sales team, which deals would you lose? That list describes your enterprise segment — the buyers who will always need a human in the loop. Are you building for them, ignoring them, or trying to serve both badly?" },
+        { "format": "avoid-this",    "text": "Don't go enterprise too early. Kyle Poyar is explicit: the customization expectations, compliance requirements, and long sales cycles of enterprise deals reshape your product in ways that make self-serve nearly impossible to rebuild. Win the SMB PLG market first, then move up-market deliberately." }
+      ],
+      "resources": [
+        { "title": "From Impossible to Inevitable — Aaron Ross & Jason Lemkin", "type": "book" },
+        { "title": "Product-Led Growth — Wes Bush", "type": "book" },
+        { "title": "OpenView Partners blog (openviewpartners.com)", "type": "article" }
+      ]
+    }
+  ]
+}

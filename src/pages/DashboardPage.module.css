@@ -1,0 +1,110 @@
+.page { height: 100%; overflow-y: auto; background: var(--bg); }
+
+/* Nav */
+.nav {
+  display: flex; align-items: center; gap: 1rem;
+  padding: 0.9rem 2rem;
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg2); position: sticky; top: 0; z-index: 10;
+  flex-wrap: wrap;
+}
+.backBtn {
+  font-size: 12px; color: var(--gold); background: none;
+  border: 1px solid var(--gold-dim); border-radius: var(--radius);
+  padding: 5px 12px; cursor: pointer; font-family: var(--font-sans);
+  font-weight: 600; transition: all .15s;
+}
+.backBtn:hover { background: var(--gold-glow); border-color: var(--gold); }
+.navTitle {
+  font-size: 14px; font-weight: 600; color: var(--cream); flex: 1;
+}
+.windowBtns { display: flex; gap: 4px; }
+.wBtn {
+  font-size: 11px; padding: 4px 11px; border-radius: 20px;
+  border: 1px solid var(--faint); background: transparent;
+  color: var(--muted); cursor: pointer; font-family: var(--font-sans);
+  transition: all .15s;
+}
+.wBtn:hover  { border-color: var(--cream2); color: var(--cream); }
+.wActive { background: var(--gold); color: var(--bg); border-color: var(--gold); font-weight: 600; }
+
+.content {
+  max-width: 900px; margin: 0 auto;
+  padding: 2rem 2rem 4rem;
+  display: flex; flex-direction: column; gap: 1.5rem;
+}
+
+/* Notice */
+.notice {
+  background: var(--bg3); border: 1px solid var(--gold-dim);
+  border-radius: var(--radius); padding: 1rem 1.25rem;
+  font-size: 13px; color: var(--cream2); line-height: 1.65;
+}
+.notice strong { color: var(--gold); }
+.notice code   { font-size: 12px; color: var(--gold2); background: var(--bg4); padding: 1px 5px; border-radius: 3px; }
+
+.loading { text-align: center; padding: 3rem; color: var(--muted); font-size: 13px; font-weight: 300; }
+.empty   { font-size: 13px; color: var(--muted); padding: 0.75rem 0; font-weight: 300; }
+
+/* Stat grid */
+.statGrid {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;
+}
+@media (max-width: 600px) { .statGrid { grid-template-columns: repeat(2, 1fr); } }
+
+.statCard {
+  background: var(--bg2); border: 1px solid var(--rule);
+  border-radius: var(--radius-lg); padding: 1.1rem 1.25rem;
+  text-align: center;
+}
+.statValue {
+  font-family: var(--font-serif);
+  font-size: 32px; font-weight: 700; color: var(--gold); line-height: 1;
+}
+.statLabel { font-size: 11px; color: var(--muted); margin-top: 5px; font-weight: 300; letter-spacing: 0.04em; }
+
+/* Generic card */
+.card {
+  background: var(--bg2); border: 1px solid var(--rule);
+  border-radius: var(--radius-lg); padding: 1.25rem 1.5rem;
+}
+.cardHead {
+  font-size: 9.5px; font-weight: 700; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--muted);
+  margin-bottom: 1.1rem;
+}
+
+/* Sparkline */
+.sparkWrap {
+  display: flex; align-items: flex-end; gap: 4px; height: 80px;
+}
+.sparkCol  { display: flex; flex-direction: column; align-items: center; flex: 1; gap: 4px; height: 100%; }
+.sparkBarWrap { flex: 1; display: flex; align-items: flex-end; width: 100%; }
+.sparkBar  { width: 100%; background: var(--gold); border-radius: 2px 2px 0 0; min-height: 4px; transition: height .3s; opacity: 0.8; }
+.sparkLabel { font-size: 9px; color: var(--faint); white-space: nowrap; }
+
+/* Hero mode */
+.modeGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.modeCard {
+  background: var(--bg3); border: 1px solid var(--rule);
+  border-radius: var(--radius); padding: 1rem; text-align: center;
+}
+.modeLetter { font-size: 10px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 6px; }
+.modeRate   { font-size: 28px; font-weight: 700; font-family: var(--font-serif); line-height: 1; margin-bottom: 4px; }
+.modeSub    { font-size: 10.5px; color: var(--muted); font-weight: 300; margin-bottom: 4px; }
+.modeDesc   { font-size: 10px; color: var(--faint); font-style: italic; }
+
+/* Episode bars */
+.epBars { display: flex; flex-direction: column; gap: 10px; }
+.epBarRow { display: flex; align-items: center; gap: 10px; }
+.epBarLabel {
+  font-size: 12px; color: var(--cream2); font-weight: 300;
+  width: 200px; flex-shrink: 0;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.epBarTrack {
+  flex: 1; height: 8px; background: var(--bg4);
+  border-radius: 4px; overflow: hidden;
+}
+.epBarFill  { height: 100%; background: var(--gold); border-radius: 4px; transition: width .4s; }
+.epBarCount { font-size: 11px; color: var(--muted); width: 36px; text-align: right; flex-shrink: 0; }

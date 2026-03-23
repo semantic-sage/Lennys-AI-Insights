@@ -1,0 +1,29 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  flex: 1;
+  min-height: 0;
+}
+
+.left {
+  min-height: 0;
+  overflow: hidden;
+  border-right: 1px solid var(--rule);
+}
+
+.center {
+  min-height: 0;
+  overflow: hidden;
+}
+
+@media (max-width: 800px) {
+  .body { grid-template-columns: 1fr; }
+  .left { display: none; }
+}
