@@ -2,7 +2,7 @@
 ### by Sri Adidam · github.com/semantic-sage
 
 A React app for discovering AI-extracted insights from Lenny's Podcast episodes — with analytics tracking and a live dashboard.
-
+**[→ Try it live](https://semantic-sage.github.io/Lennys-AI-Insights/)**
 ---
 
 ## Quick Start (local dev)
