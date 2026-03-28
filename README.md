@@ -91,7 +91,6 @@ Go to [github.com/Learner-Apps](https://github.com/Learner-Apps) and create a ne
 
 ### Step 2 — Push your code
 ```bash
-cd "C:\Users\Sri\OneDrive\Desktop\AI Projects\Sri Project Lenny's Insights\lennys-insights"
 git init
 git add .
 git commit -m "v4 — wow factors, analytics, dashboard"
@@ -177,5 +176,5 @@ src/
 | v1.0 | Initial React app — discovery center, AI takeaways, portfolio sidebar |
 | v2.0 | Redesign — left portfolio pane, 4 insight types, pre-built JSON cache |
 | v3.0 | Bold dark redesign — resources added, all 4 insight types cached |
-| v4.0 | Rotating wow hero (A/B/C modes), 5 rotating takeaway formats, React Router pages |
+| v4.0 | Rotating hero (A/B/C modes), 5 rotating takeaway formats, React Router pages |
 | v5.0 | Supabase analytics, dashboard, GitHub Pages deploy config, HashRouter |
