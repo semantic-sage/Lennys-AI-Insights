@@ -1,0 +1,18 @@
+#!/bin/sh
+# Refuse commits unless the author email ends with the allowed domain you set once with:
+#   git config hooks.allowedEmailDomain example.com
+# Enable the hook once with: git config core.hooksPath .githooks
+allowed="$(git config hooks.allowedEmailDomain)"
+email="$(git config user.email)"
+if [ -z "$allowed" ]; then
+  echo "pre-commit: set the allowed author domain first: git config hooks.allowedEmailDomain <your personal email domain>" >&2
+  exit 1
+fi
+case "$email" in
+  *"@$allowed") ;;
+  *) echo "pre-commit: refusing commit from '$email'. Expected an @$allowed address. Fix: git config user.email <personal email>" >&2; exit 1 ;;
+esac
+if git diff --cached --name-only | grep -qx '.env'; then
+  echo "pre-commit: .env is staged. Unstage it: git reset .env" >&2
+  exit 1
+fi

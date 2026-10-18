@@ -1,0 +1,5 @@
+node_modules
+dist
+# copied from ../src/data by scripts/sync-data.mjs; never edit here
+src/data/episodes.json
+src/data/takeaways.json

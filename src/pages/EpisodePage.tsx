@@ -147,7 +147,7 @@ export default function EpisodePage() {
         {/* Listen CTA */}
         <div className={styles.cta}>
           <a href={episode.url} target="_blank" rel="noopener noreferrer" className={styles.listenBtn}>
-            ▶ Listen to the full episode on Lenny's Podcast
+            ▶ Watch the full episode on YouTube
           </a>
         </div>
       </div>

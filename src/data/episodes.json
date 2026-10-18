@@ -1,0 +1,376 @@
+[
+  {
+    "id": 1,
+    "videoId": "WyJV6VwEGA8",
+    "title": "Figma’s CEO: Why AI makes design, craft, and quality the new moat for startups",
+    "guest": "Dylan Field",
+    "role": "CEO, Figma",
+    "date": "2025-10-16",
+    "duration": "1:26:50",
+    "tags": [
+      "product",
+      "design",
+      "startups"
+    ],
+    "desc": "Dylan Field on why AI makes design, craft and quality the new moat for startups, and how Figma kept its product bar high while expanding from one tool to a platform.",
+    "url": "https://www.youtube.com/watch?v=WyJV6VwEGA8",
+    "archiveDir": "dylan-field"
+  },
+  {
+    "id": 2,
+    "videoId": "0igjSRZyX-w",
+    "title": "Superhuman's secret to success",
+    "guest": "Rahul Vohra",
+    "role": "CEO, Superhuman",
+    "date": "2025-03-23",
+    "duration": "1:25:08",
+    "tags": [
+      "PMF",
+      "growth",
+      "metrics"
+    ],
+    "desc": "Rahul Vohra on Superhuman's path to success: the product-market fit engine, how to measure it with a survey, and how to turn the results into a roadmap.",
+    "url": "https://www.youtube.com/watch?v=0igjSRZyX-w",
+    "archiveDir": "rahul-vohra"
+  },
+  {
+    "id": 3,
+    "videoId": "IIPKMixTMfE",
+    "title": "Notion's lost years, near collapse during COVID, staying small to move fast, building horizontal",
+    "guest": "Ivan Zhao",
+    "role": "CEO, Notion",
+    "date": "2025-03-06",
+    "duration": "1:12:18",
+    "tags": [
+      "product",
+      "design",
+      "community"
+    ],
+    "desc": "Ivan Zhao on Notion's lost years, nearly collapsing during COVID, staying small to move fast, and building a horizontal product people love.",
+    "url": "https://www.youtube.com/watch?v=IIPKMixTMfE",
+    "archiveDir": "ivan-zhao"
+  },
+  {
+    "id": 4,
+    "videoId": "4jtGsyz4jLs",
+    "title": "Persuasive communication and managing up",
+    "guest": "Wes Kao",
+    "role": "Co-founder, Maven",
+    "date": "2022-08-28",
+    "duration": "53:08",
+    "tags": [
+      "communication",
+      "leadership",
+      "writing"
+    ],
+    "desc": "Wes Kao on persuasive communication and managing up: how to make your point land, write with clarity, and get leaders to say yes.",
+    "url": "https://www.youtube.com/watch?v=4jtGsyz4jLs",
+    "archiveDir": "wes-kao"
+  },
+  {
+    "id": 5,
+    "videoId": "qbZQjprTnrU",
+    "title": "Building product at Stripe: craft, metrics, and customer obsession",
+    "guest": "Jeff Weinstein",
+    "role": "Product lead, Stripe",
+    "date": "2024-07-11",
+    "duration": "2:35:00",
+    "tags": [
+      "startups",
+      "product",
+      "payments"
+    ],
+    "desc": "Jeff Weinstein on building product at Stripe: craft, the metrics that matter, customer obsession, and turning company formation into a few clicks.",
+    "url": "https://www.youtube.com/watch?v=qbZQjprTnrU",
+    "archiveDir": "jeff-weinstein"
+  },
+  {
+    "id": 6,
+    "videoId": "4muxFVZ4XfM",
+    "title": "Inside Linear: Building with taste, craft, and focus",
+    "guest": "Karri Saarinen",
+    "role": "CEO, Linear",
+    "date": "2023-10-08",
+    "duration": "1:39:50",
+    "tags": [
+      "product",
+      "design",
+      "tools"
+    ],
+    "desc": "Karri Saarinen on how Linear builds with taste, craft and focus, why they say no constantly, and how a small team keeps quality high.",
+    "url": "https://www.youtube.com/watch?v=4muxFVZ4XfM",
+    "archiveDir": "karri-saarinen"
+  },
+  {
+    "id": 7,
+    "videoId": "dLku0AiGPVA",
+    "title": "Mastering onboarding",
+    "guest": "Lauryn Isford",
+    "role": "Head of Growth, Airtable",
+    "date": "2023-02-12",
+    "duration": "1:04:21",
+    "tags": [
+      "onboarding",
+      "growth",
+      "retention"
+    ],
+    "desc": "Lauryn Isford on mastering onboarding: the tactics, experiments and activation metrics that turn new sign-ups into retained users.",
+    "url": "https://www.youtube.com/watch?v=dLku0AiGPVA",
+    "archiveDir": "lauryn-isford"
+  },
+  {
+    "id": 8,
+    "videoId": "A6veeCbKIzw",
+    "title": "The art and science of pricing",
+    "guest": "Madhavan Ramanujam",
+    "role": "Senior Partner, Simon-Kucher",
+    "date": "2022-12-08",
+    "duration": "1:38:33",
+    "tags": [
+      "pricing",
+      "monetization",
+      "strategy"
+    ],
+    "desc": "Madhavan Ramanujam on the art and science of pricing: willingness-to-pay research, monetization strategy, and the mistakes most startups make.",
+    "url": "https://www.youtube.com/watch?v=A6veeCbKIzw",
+    "archiveDir": "madhavan-ramanujam-20"
+  },
+  {
+    "id": 9,
+    "videoId": "bxghtN-OlJQ",
+    "title": "The ultimate guide to product-led sales",
+    "guest": "Elena Verna",
+    "role": "Growth Advisor",
+    "date": "2023-04-23",
+    "duration": "1:16:10",
+    "tags": [
+      "growth",
+      "PLG",
+      "metrics"
+    ],
+    "desc": "Elena Verna's guide to product-led sales: when to add sales to a product-led motion, how to spot qualified accounts, and how to structure the team.",
+    "url": "https://www.youtube.com/watch?v=bxghtN-OlJQ",
+    "archiveDir": "elena-verna-20"
+  },
+  {
+    "id": 10,
+    "videoId": "37fKFWdrMyA",
+    "title": "$1M to $10M: The enterprise sales playbook with Jen Abel",
+    "guest": "Jen Abel",
+    "role": "Co-founder, Jellyfish",
+    "date": "2025-11-09",
+    "duration": "1:21:36",
+    "tags": [
+      "startups",
+      "B2B",
+      "strategy"
+    ],
+    "desc": "Jen Abel on the enterprise sales playbook from $1M to $10M: founder-led selling, finding the buyer, and building repeatable zero-to-one enterprise sales.",
+    "url": "https://www.youtube.com/watch?v=37fKFWdrMyA",
+    "archiveDir": "jen-abel-20"
+  },
+  {
+    "id": 11,
+    "videoId": "4ef0juAMqoE",
+    "title": "Brian Chesky’s new playbook",
+    "guest": "Brian Chesky",
+    "role": "CEO, Airbnb",
+    "date": "2023-11-12",
+    "duration": "1:13:28",
+    "tags": [
+      "culture",
+      "leadership",
+      "remote"
+    ],
+    "desc": "Brian Chesky on his new playbook for running Airbnb: founder mode, getting into the details, and how he reshaped culture and planning after COVID.",
+    "url": "https://www.youtube.com/watch?v=4ef0juAMqoE",
+    "archiveDir": "brian-chesky"
+  },
+  {
+    "id": 12,
+    "videoId": "YP_QghPLG-8",
+    "title": "The art of product management",
+    "guest": "Shreyas Doshi",
+    "role": "Former PM, Stripe, Twitter and Google",
+    "date": "2022-08-25",
+    "duration": "1:31:22",
+    "tags": [
+      "product",
+      "leadership",
+      "career"
+    ],
+    "desc": "Shreyas Doshi on the art of product management: the LNO framework, pre-mortems, and what separates great product managers from good ones.",
+    "url": "https://www.youtube.com/watch?v=YP_QghPLG-8",
+    "archiveDir": "shreyas-doshi"
+  },
+  {
+    "id": 13,
+    "videoId": "_CCwoQZH5hI",
+    "title": "Behind the product: Duolingo streaks",
+    "guest": "Jackson Shuttleworth",
+    "role": "Group PM, Duolingo",
+    "date": "2024-12-15",
+    "duration": "1:28:32",
+    "tags": [
+      "growth",
+      "gamification",
+      "retention"
+    ],
+    "desc": "Jackson Shuttleworth on the Duolingo streak: how the retention team designs, tests and protects the feature that keeps learners coming back.",
+    "url": "https://www.youtube.com/watch?v=_CCwoQZH5hI",
+    "archiveDir": "jackson-shuttleworth"
+  },
+  {
+    "id": 14,
+    "videoId": "xQV7HVyAJjc",
+    "title": "The ultimate guide to JTBD",
+    "guest": "Bob Moesta",
+    "role": "Co-creator, Jobs To Be Done",
+    "date": "2023-08-24",
+    "duration": "1:09:55",
+    "tags": [
+      "discovery",
+      "JTBD",
+      "research"
+    ],
+    "desc": "Bob Moesta's guide to Jobs To Be Done: how to run demand-side interviews and find the real reason people switch products.",
+    "url": "https://www.youtube.com/watch?v=xQV7HVyAJjc",
+    "archiveDir": "bob-moesta-20"
+  },
+  {
+    "id": 15,
+    "videoId": "9RFaz9ZBXpk",
+    "title": "Build better products with continuous product discovery",
+    "guest": "Teresa Torres",
+    "role": "Product Discovery Coach",
+    "date": "2022-10-06",
+    "duration": "48:18",
+    "tags": [
+      "research",
+      "discovery",
+      "product"
+    ],
+    "desc": "Teresa Torres on continuous product discovery: weekly customer touchpoints, the opportunity solution tree, and better decisions from better habits.",
+    "url": "https://www.youtube.com/watch?v=9RFaz9ZBXpk",
+    "archiveDir": "teresa-torres"
+  },
+  {
+    "id": 16,
+    "videoId": "dkVJnaxDlXE",
+    "title": "The power of strategic narrative",
+    "guest": "Andy Raskin",
+    "role": "Strategic Narrative Consultant",
+    "date": "2023-05-28",
+    "duration": "1:02:49",
+    "tags": [
+      "strategy",
+      "communication",
+      "leadership"
+    ],
+    "desc": "Andy Raskin on the power of strategic narrative: start with a shift in the world, name the stakes, and align the whole company around one story.",
+    "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE",
+    "archiveDir": "andy-raskin"
+  },
+  {
+    "id": 17,
+    "videoId": "9N4ZgNaWvI0",
+    "title": "Product management theater",
+    "guest": "Marty Cagan",
+    "role": "Founder, Silicon Valley Product Group",
+    "date": "2024-03-10",
+    "duration": "1:25:15",
+    "tags": [
+      "product",
+      "leadership",
+      "process"
+    ],
+    "desc": "Marty Cagan on product management theater: why most companies build product the wrong way and what empowered product teams do differently.",
+    "url": "https://www.youtube.com/watch?v=9N4ZgNaWvI0",
+    "archiveDir": "ray-cao"
+  },
+  {
+    "id": 18,
+    "videoId": "xZifSLGOrrw",
+    "title": "How to drive word of mouth",
+    "guest": "Nilan Peiris",
+    "role": "Chief Product Officer, Wise",
+    "date": "2023-09-24",
+    "duration": "1:16:34",
+    "tags": [
+      "growth",
+      "virality",
+      "retention"
+    ],
+    "desc": "Nilan Peiris on how to drive word of mouth: build a product worth talking about, measure referrals, and grow without paid acquisition.",
+    "url": "https://www.youtube.com/watch?v=xZifSLGOrrw",
+    "archiveDir": "alexander-embiricos"
+  },
+  {
+    "id": 19,
+    "videoId": "twzLDx9iers",
+    "title": "“I like being scared”: Molly Graham’s frameworks for rapid career growth",
+    "guest": "Molly Graham",
+    "role": "Founder, Glue Club",
+    "date": "2026-01-04",
+    "duration": "1:31:57",
+    "tags": [
+      "career",
+      "product",
+      "leadership"
+    ],
+    "desc": "Molly Graham's frameworks for rapid career growth: giving away your legos, running toward what scares you, and scaling yourself as the company scales.",
+    "url": "https://www.youtube.com/watch?v=twzLDx9iers",
+    "archiveDir": "molly-graham"
+  },
+  {
+    "id": 20,
+    "videoId": "Ub9UkWByFIQ",
+    "title": "Unorthodox frameworks for growing your product, career, and impact",
+    "guest": "Bangaly Kaba",
+    "role": "Director of Product, YouTube",
+    "date": "2024-05-26",
+    "duration": "1:42:05",
+    "tags": [
+      "growth",
+      "scale",
+      "metrics"
+    ],
+    "desc": "Bangaly Kaba's unorthodox frameworks for growing your product, career and impact, from adjacent users to the understanding-identifying-executing loop.",
+    "url": "https://www.youtube.com/watch?v=Ub9UkWByFIQ",
+    "archiveDir": "bangaly-kaba"
+  },
+  {
+    "id": 21,
+    "videoId": "c_w0LaFahxk",
+    "title": "From managing people to managing AI: The leadership skills everyone needs now",
+    "guest": "Julie Zhuo",
+    "role": "Former VP Design, Facebook",
+    "date": "2025-09-21",
+    "duration": "1:36:24",
+    "tags": [
+      "design",
+      "product",
+      "leadership"
+    ],
+    "desc": "Julie Zhuo on moving from managing people to managing AI: the leadership skills everyone needs now, and how design and management habits transfer.",
+    "url": "https://www.youtube.com/watch?v=c_w0LaFahxk",
+    "archiveDir": "julian-shapiro"
+  },
+  {
+    "id": 22,
+    "videoId": "UmirRfy-gzA",
+    "title": "An inside look at Figma’s unique GTM motion",
+    "guest": "Claire Butler",
+    "role": "First GTM hire, Figma",
+    "date": "2023-09-07",
+    "duration": "1:31:26",
+    "tags": [
+      "GTM",
+      "PLG",
+      "strategy"
+    ],
+    "desc": "Claire Butler on Figma's unusual go-to-market motion: bottom-up adoption, when to add sales, and leading GTM from stealth through monetization.",
+    "url": "https://www.youtube.com/watch?v=UmirRfy-gzA",
+    "archiveDir": "claire-butler"
+  }
+]
