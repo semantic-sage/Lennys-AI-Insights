@@ -3,6 +3,28 @@
 
 A React app for discovering AI-extracted insights from Lenny's Podcast episodes — with analytics tracking and a live dashboard.
 **[→ Try it live](https://semantic-sage.github.io/Lennys-AI-Insights/)**
+
+Oct 2026 Update
+## Use it in Claude (MCP server)
+
+Ask Claude "which Lenny's Podcast episodes teach pricing?" and get real episodes, takeaways and YouTube links. This works through an MCP server (Model Context Protocol, a standard way to plug tools into AI assistants).
+
+**Claude Desktop:** Settings → Developer → Edit Config, add this, then fully quit and reopen:
+
+```json
+{
+  "mcpServers": {
+    "lennys-podcast": { "command": "npx", "args": ["-y", "lennys-podcast-mcp"] }
+  }
+}
+```
+
+**Claude Code:** `claude mcp add lennys-podcast -- npx -y lennys-podcast-mcp`
+
+Needs Node.js 20+. No API key. If you see "Server disconnected" on a network that inspects traffic, add `"env": { "NODE_OPTIONS": "--use-system-ca" }` next to `"args"`.
+
+Full docs: [mcp/README.md](mcp/README.md) · npm: [lennys-podcast-mcp](https://www.npmjs.com/package/lennys-podcast-mcp)
+
 ---
 
 ## Quick Start (local dev)
