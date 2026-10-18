@@ -1,9 +1,20 @@
+import { useState } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import styles from './PortfolioSidebar.module.css'
 
 export default function PortfolioSidebar() {
   const navigate = useNavigate()
   const location = useLocation()
+  const [copied, setCopied] = useState(false)
+
+  const MCP_CMD = 'claude mcp add lennys-podcast -- npx -y lennys-podcast-mcp'
+
+  function copyMcp() {
+    navigator.clipboard?.writeText(MCP_CMD).then(() => {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    }).catch(() => {})
+  }
 
   function isActive(path: string) {
     return location.pathname === path
@@ -45,6 +56,23 @@ export default function PortfolioSidebar() {
           📊 Analytics
         </button>
       </nav>
+
+      <div className={styles.rule} />
+
+      <div className={styles.section}>
+        <div className={styles.label}>Plug into your AI</div>
+        <p className={styles.text}>
+          Ask Claude, Cursor or any MCP app which episodes teach what you need. MCP (Model Context Protocol) is a plug-in standard for AI assistants.
+        </p>
+        <button className={styles.mcpCmd} onClick={copyMcp} title="Copy command">
+          <code>{MCP_CMD}</code>
+          <span className={styles.mcpCopy}>{copied ? 'Copied ✓' : 'Copy · Claude Code'}</span>
+        </button>
+        <div className={styles.links}>
+          <a href="https://github.com/semantic-sage/Lennys-AI-Insights/tree/main/mcp#readme" target="_blank" rel="noopener noreferrer" className={styles.link}>Setup guide ↗</a>
+          <a href="https://www.npmjs.com/package/lennys-podcast-mcp" target="_blank" rel="noopener noreferrer" className={styles.link}>npm ↗</a>
+        </div>
+      </div>
 
       <div className={styles.rule} />
 
